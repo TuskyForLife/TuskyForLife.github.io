@@ -2,7 +2,7 @@
 *{font-family: "Marcellus SC", serif;}
 body{
   margin:0;
-  background: linear-gradient(#cdfcd4, #315c38);
+  background: linear-gradient(#b5daf4, #3F8EFC);
 }
 /*Some Css taken from Bc.css*/
 
@@ -23,11 +23,11 @@ body{
   font-size: 50px;
 }
 .blue-box{
-  background-color: #8FB996;
+  background-color: #87BFFF;
   padding: 3px;
 }
 .gray-box{
-  background-color: #A1CCA5;
+  background-color: #ADD7F6;
   padding: 3px;
 }
 .gray-box a{
