@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
 *{font-family: "Marcellus SC", serif;}
-body{margin:0;}
+body{
+  margin:0;
+  background: linear-gradient(#cdfcd4, #315c38);
+}
 /*Some Css taken from Bc.css*/
 
 
@@ -20,18 +23,18 @@ body{margin:0;}
   font-size: 50px;
 }
 .blue-box{
-  background-color: lightblue;
+  background-color: #8FB996;
   padding: 3px;
 }
 .gray-box{
-  background-color: rgb(206, 244, 250);
+  background-color: #A1CCA5;
   padding: 3px;
 }
 .gray-box a{
   color:rgb(13, 13, 219);
 }
 a{
-  color:slategray
+  color:#455fe2
 }
 .links{
   position: absolute;
