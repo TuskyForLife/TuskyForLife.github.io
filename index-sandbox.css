@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+*{font-family: "Marcellus SC", serif;}
+body{
+  margin:0;
+  background: linear-gradient(#b5daf4, #3F8EFC);
+}
+/*Some Css taken from Bc.css*/
+
+
+.bc-hover-once-spin:hover{
+  animation: rotation 0.5s linear!important;
+}
+@keyframes rotation {from {transform: rotate(0deg);}to {transform: rotate(360deg);}} 
+.title-logo{
+  width: 300px;
+  position: absolute;
+  transform: translate(-50%);
+  top:0%;
+  z-index: -1;
+  opacity: 0.3;
+}
+.title-text{
+  font-size: 50px;
+}
+.blue-box{
+  background-color: #87BFFF;
+  padding: 3px;
+}
+.gray-box{
+  background-color: #ADD7F6;
+  padding: 3px;
+}
+.gray-box a{
+  color:rgb(13, 13, 219);
+}
+a{
+  color:#455fe2
+}
+.links{
+  position: absolute;
+  top:1%;  
+  right:0;
+}
+.links a{
+  margin-right: 10px;
+}
