@@ -35,6 +35,35 @@
         .text-fr-large{
             font-size: 30px;
         }
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .container {
+            position: relative;
+            text-align: center;
+            color: white;
+            width: 100px;
+            /* border:1px solid black; */
+            left:50%;
+            width:50%;
+            font-size: 60px;
+            position: absolute;
+            top:50%;
+            transform: translate(-50%,-50%);
+        }
+        .container img{
+            opacity: 0.3;
+        }
+        .below{
+            position: absolute;
+            top:100%;
+            width:100%;
+            left:50%;
+            transform: translate(-50%);
+        }
     </style>
 </head>
 <body>
@@ -45,7 +74,7 @@
             </p>
             <img class="title-image" style="float: right;" src="https://tuskyforlife.github.io/thssfl-logo.png" width="300px" alt="thssfl">
             <p class="title-text">
-                TUSCARORA HS<br/> STUDENTS<br/> <span style="color:#00A6DB;">FOR LIFE</span>
+                TUSCARORA HS<br/> STUDENTS<br/> <b><span style="color:#00A6DB;">FOR LIFE</span></b>
             </p>
         </div>
         <div class="ninja">
@@ -53,14 +82,14 @@
             <p style="margin-left: 5%;">
                 <br/>
                 THIS WEBSITE IS IN PROGRESS, BUT UNTIL THEN, ALL THE INFORMATION WILL BE <span style="color: #00A6DB;">LOCATED AT</span>
-                <br/><span style="font-size: 20px;text-decoration: underline;color:#413E75;">https://sites.google.com/lcps.org/thssfl</span>
+                <br/><a href="https://sites.google.com/lcps.org/thssfl"><span style="font-size: 20px;color:#413E75;">https://sites.google.com/lcps.org/thssfl</span></a>
             </p><br/><br/>
             <span class="text-fr-large">CONTACT US</span>
             <ul style="margin-left: 5%;">
-                <li>CLUB SPONSOR: <span style="font-size: 20px;text-decoration: underline;color:#413E75;">Sra. Wagner</span></li>
-                <li>PRESIDENT: <span style="font-size: 20px;text-decoration: underline;color:#413E75;">JB Santos</span></li>
-                <li>ACTING PRESIDENT: <span style="font-size: 20px;text-decoration: underline;color:#413E75;">Henry Panning</span></li>
-                <li>VICE PRESIDENT: <span style="font-size: 20px;text-decoration: underline;color:#413E75;">Mariano Buitrago</span></li>
+                <li>CLUB SPONSOR: <a href="mailto:kelly.wagner@lcps.org"><span style="font-size: 20px;color:#413E75;">Sra. Wagner</span></span></a></li>
+                <li>PRESIDENT: <a href="mailto:855487@lcps.org"><span style="font-size: 20px;color:#413E75;">JB Santos</span></a></li>
+                <li>ACTING PRESIDENT: <a href="mailto:1010635@lcps.org"><span style="font-size: 20px;color:#413E75;">Henry Panning</span></a></li>
+                <li>VICE PRESIDENT: <a href="mailto:787442@lcps.org"><span style="font-size: 20px;color:#413E75;">Mariano Buitrago</span></a></li>
             </ul>
             <br/><br/>
             <span class="text-fr-large">ABOUT US</span>
@@ -70,15 +99,27 @@
             </p>
             <br/><br/>
             <p style="position:absolute;left: 50%;transform: translate(-100%);">
-                <img src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png" width="40px" alt="">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/768px-Instagram_icon.png" width="40px" alt="">
-                <img src="https://play-lh.googleusercontent.com/O8A0yONWSafn8LIYROmP9tjTV2hptlIkUhqZOkEK7Z9XePXIttJEaRfCbcFtnzrICbg" width="40px" style="border-radius: 10px;" alt="">
+                <a href="http://discord.gg/qMNq7252cV"><img src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png" width="40px" alt=""></a>
+                <a href="http://instagram.com/ths.students4life"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/768px-Instagram_icon.png" width="40px" alt=""></a>
+                <a href="http://remind.com/join/thssfl"><img src="https://play-lh.googleusercontent.com/O8A0yONWSafn8LIYROmP9tjTV2hptlIkUhqZOkEK7Z9XePXIttJEaRfCbcFtnzrICbg" width="40px" style="border-radius: 10px;" alt=""></a>
             </p>
             <br/> <br/> <br/>
         </div>
     </div>
-    <div mobile style="position: absolute;left: 50%;top:50%;transform: translate(-50%,-50%);">
-        THANKS FOR COMING, BUT MOBILE <span style="color:#00A6DB;text-decoration: underline;">ISN'T</span> OUT YET.
+    <div mobile>
+        <p align="center"><br/>
+            <span style="font-size: 15px;color:#413E75;text-decoration: underline;">HOME</span>&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 15px;color:#413E75;text-decoration: underline;">RESOURSCES</span><br/><br/><br/>
+        </p>
+        <div class="container" >
+            <img src="https://tuskyforlife.github.io/thssfl-logo.png" style="width:100%;" alt="">
+            <div class="centered">TUSCARORA HS STUDENTS <b style="color:#2b40e2;">FOR LIFE</b></div>
+        </div><br/>
+        <p class="below" align="center">
+            <span class="text-fr-large ">ANNOUCEMENTS</span><br/><br/>
+            THIS WEBSITE IS IN PROGRESS, BUT UNTIL THEN, ALL THE INFORMATION WILL BE <b style="color:#2b40e2;">LOCATED AT</b><br/>
+            <span style="font-size: 15px;color:#413E75;text-decoration: underline;">https://sites.google.com/lcps.org/thssfl</span>
+            <br/><br/><br/><br/><br/><br/>
+        </p>
     </div>
     <script src="https://snojs.github.io/snojs/src/sno-src.js"></script>
 </body>
